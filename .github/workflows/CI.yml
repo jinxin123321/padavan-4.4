@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621-usb-1"
-            targets: "RE-SP-01B HC5961"
+            targets: "RE-SP-02"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
